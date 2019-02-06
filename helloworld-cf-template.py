@@ -1,5 +1,4 @@
 """Generating CloudFormation template."""
-
 from troposphere import (
     Base64,
     ec2,
