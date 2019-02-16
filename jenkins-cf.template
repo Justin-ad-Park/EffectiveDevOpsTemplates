@@ -110,6 +110,8 @@
                             "\n",
                             [
                                 "#!/bin/bash",
+                                "yum remove java-1.7.0-openjdk -y",
+                                "yum install java-1.8.0-openjdk -y",
                                 "yum install --enablerepo=epel -y git",
                                 "pip install ansible",
                                 "/usr/local/bin/ansible-pull -U https://github.com/Justin-ad-Park/ansible jenkins.yml -i localhost",

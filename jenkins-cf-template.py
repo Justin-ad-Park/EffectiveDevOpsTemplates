@@ -76,6 +76,8 @@ t.add_resource(ec2.SecurityGroup(
 
 ud = Base64(Join('\n', [
     "#!/bin/bash",
+    "yum remove java-1.7.0-openjdk -y",
+    "yum install java-1.8.0-openjdk -y",
     "yum install --enablerepo=epel -y git",
     "pip install ansible",
     AnsiblePullCmd,
