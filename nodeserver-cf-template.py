@@ -102,9 +102,10 @@ t.add_resource(IAMPolicy(
     PolicyName="AllowS3",
     PolicyDocument=Policy(
         Statement=[
-            Effect=Allow,
-            Action=[Action("s3","*")],
-            Resource=[*])
+            Statement(
+                Effect=Allow,
+                Action=[Action("s3","*")],
+                Resource=["*"])
         ]
     ),
     Roles=[Ref("Role")]
