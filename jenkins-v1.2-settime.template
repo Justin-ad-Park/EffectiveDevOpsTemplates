@@ -74,7 +74,7 @@
                 "GroupDescription": "Allow SSH and TCP/8080 access",
                 "SecurityGroupIngress": [
                     {
-                        "CidrIp": "222.237.167.120/32",
+                        "CidrIp": "210.180.115.20/32",
                         "FromPort": "22",
                         "IpProtocol": "tcp",
                         "ToPort": "22"
@@ -94,7 +94,7 @@
                 "IamInstanceProfile": {
                     "Ref": "InstanceProfile"
                 },
-                "ImageId": "ami-00dc207f8ba6dc919",
+                "ImageId": "ami-0be3e6f84d3b968cd",
                 "InstanceType": "t2.micro",
                 "KeyName": {
                     "Ref": "KeyPair"
