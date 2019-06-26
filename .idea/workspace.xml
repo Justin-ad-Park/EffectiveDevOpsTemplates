@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485287eb-a7e7-46d2-9a96-1924d8b5c0f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/12.jenkins-v1.2-createstack.sh" beforeDir="false" afterPath="$PROJECT_DIR$/12.jenkins-v1.2-createstack.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins-v1.2-settime-template.py" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins-v1.2-settime-template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins-v1.2-settime.template" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins-v1.2-settime.template" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,18 +70,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jenkins-v1.2-settime.template">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="704">
-              <caret line="99" column="36" lean-forward="true" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+              <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jenkins-cf.template">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -125,22 +127,14 @@
         <option value="$PROJECT_DIR$/jenkins-v1.2-settime-template.py" />
         <option value="$PROJECT_DIR$/python/15.jenkins_getInitialPassword.sh" />
         <option value="$PROJECT_DIR$/15.jenkins_getInitialPassword.sh" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/EffectiveDevOpsTemplates.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.gitingore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3186" />
-    <option name="y" value="-596" />
+    <option name="x" value="3385" />
+    <option name="y" value="-690" />
     <option name="width" value="1609" />
     <option name="height" value="1789" />
   </component>
@@ -181,6 +175,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/python" />
@@ -221,15 +216,15 @@
       <workItem from="1561349978082" duration="2897000" />
       <workItem from="1561449977583" duration="3143000" />
       <workItem from="1561504328641" duration="459000" />
-      <workItem from="1561504873130" duration="8774000" />
+      <workItem from="1561504873130" duration="9074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15273000" />
+    <option name="totallyTimeSpent" value="15573000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3186" y="-596" width="1609" height="1789" extended-state="0" />
+    <frame x="3385" y="-690" width="1609" height="1789" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24888322" />
@@ -249,7 +244,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20094284" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31526223" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -322,7 +317,14 @@
     <entry file="file://$PROJECT_DIR$/jenkins-v1.2-settime.template">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
-          <caret line="99" column="36" lean-forward="true" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
