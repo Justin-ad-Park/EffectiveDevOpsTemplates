@@ -139,6 +139,7 @@ t.add_resource(ec2.Instance(
     "instance",
     ImageId="ami-0be3e6f84d3b968cd",
     InstanceType="t2.micro",
+                        #SubnetId="subnet-96c38dda",   #error
     SecurityGroups=[Ref("SecurityGroup")],
     KeyName=Ref("KeyPair"),
     UserData=ud,
